@@ -32,12 +32,13 @@ function App() {
             justifyContent="center"
             alignItems="center"
             >
-              <div className='wrapper'>
+              <div className='wrapper' style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '10vh'}}>
                 <header>React Basics</header>
-                <h1>
-                  Hi this is test
-                </h1>
               </div>
+              <Box sx={{ m: -2 }} />
+              <h1>
+                Hi this is test
+              </h1>
               <Body/>
               <SwitchForTheme/>
             </Grid>

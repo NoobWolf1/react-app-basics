@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Grid } from '@mui/material'
+import { Grid, Box } from '@mui/material'
 import FormGroup from '@mui/material/FormGroup'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Switch from '@mui/material/Switch'
@@ -19,6 +19,7 @@ export default function SwitchForTheme() {
                 alignItems="center"
                 rowGap='auto'
             >
+            <Box sx={{ mx: '3px', py: '30px'}} />
             <FormGroup>
                 <FormControlLabel
                     control={

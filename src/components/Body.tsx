@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Button from '@mui/material/Button'
-import { Grid } from '@mui/material'
+import { Grid, Box } from '@mui/material'
 
 export default function Body() {
     const [count, setCount] = useState(0);
@@ -12,6 +12,7 @@ export default function Body() {
     }
   return (
     <>
+
         <Grid container
             direction="row"
             justifyContent="center"
@@ -24,6 +25,7 @@ export default function Body() {
                 >
                     Clicks {count}
                 </Button>
+                <Box sx={{ m: 2 }} />
                 <Button
                     variant="contained"
                     color="error"
